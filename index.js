@@ -18,7 +18,7 @@ window.onload = () => {
 const sayHello = () => {
   return "Hello!"
 }
-
+console.log(sayHello())
 
 
 // 3 - In the Chrome Console type out the name of each of these variables 
@@ -35,7 +35,7 @@ const object1 = {
 }
 
 // 3.5 - Can you add statements below to log to the console each of the variables above?
-
+  console.log(arr1,num1,name1,object1)
 
 // This variable will hold text values for us
 let inputFieldValue = ""
